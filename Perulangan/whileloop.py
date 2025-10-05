@@ -1,3 +1,13 @@
+# Passwod
+while True:
+    user = input("Masukkan username: ")
+    pw = input("Masukkan password: ")
+    if user == "Riyadi" and pw == "074":
+        print("Login berhasil!\n")
+        break
+    else:
+        print("Username atau password salah. Coba lagi!\n")
+
 # Tagihan
 
 tagihan = [50000, 75000, -15000, 125000, 300000]
@@ -13,6 +23,7 @@ while i < total_tagihan:
     i += 1
 
 print(harus_dibayar)
+
 
 
 
